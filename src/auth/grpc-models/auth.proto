@@ -6,7 +6,7 @@ import "google/api/annotations.proto";
 
 // Defines the import path that should be used to import the generated package
 // and the package name
-option go_package = "github.com/iamrajiv/helloworld-grpc-gateway/proto;auth";
+option go_package = "github.com/EvilBorsch/Efrem-backend/proto;auth";
 
 // Here is the overall greeting service definition where we define all our endpoints
 service Auth {

@@ -3,8 +3,8 @@ package efremBackend
 import (
 	"context"
 	"fmt"
-	"github.com/iamrajiv/helloworld-grpc-gateway/proto"
-	"github.com/iamrajiv/helloworld-grpc-gateway/proto/auth"
+	"github.com/EvilBorsch/Efrem-backend/proto"
+	"github.com/EvilBorsch/Efrem-backend/proto/auth"
 	"google.golang.org/grpc/metadata"
 	"log"
 	"net"
@@ -12,9 +12,9 @@ import (
 
 	"google.golang.org/grpc"
 
+	pbAuth "github.com/EvilBorsch/Efrem-backend/proto/auth"
+	pbHelloWorld "github.com/EvilBorsch/Efrem-backend/proto/helloworld"
 	gwruntime "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
-	pbAuth "github.com/iamrajiv/helloworld-grpc-gateway/proto/auth"
-	pbHelloWorld "github.com/iamrajiv/helloworld-grpc-gateway/proto/helloworld"
 )
 
 type server struct{}
