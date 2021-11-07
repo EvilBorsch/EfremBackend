@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func Test(ctx context.Context, request *http.Request) metadata.MD {
+func AuthMiddleware(ctx context.Context, request *http.Request) metadata.MD {
 	testValue := make(map[string]string)
 	testValue["test2"] = "res2"
 	md := metadata.New(testValue)
